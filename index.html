@@ -27,8 +27,7 @@
 	parent_node.appendChild(s);
 })()
 	</script>
-	<!-- You may style the button by overriding class "cmp-revoke-consent" -->
-<button class="cmp-revoke-consent">Manage Cookie Preferences</button>
+
   <!-- ===== END SECURITI-COOKIE-BANNER ===== -->
 <script src="assets/js/analytics.js"></script>
 </head>
@@ -74,7 +73,7 @@
     <p>
       <a href="privacy.html">Privacy Notice</a> ·
       <!-- Opens the Securiti cookie preference center once the banner is deployed -->
-      <button class="cmp-revoke-consent linklike" onclick="if (typeof showConsentPreferencesPopup === 'function') { showConsentPreferencesPopup(); } else { alert('Cookie banner not deployed yet.'); }">Cookie Preferences</button>
+      <button class="linklike" onclick="if (typeof showConsentPreferencesPopup === 'function') { showConsentPreferencesPopup(); } else { alert('Cookie banner not deployed yet.'); }">Cookie Preferences</button>
       · <a id="privacy-center-link" href="#">Privacy Center</a>
     </p>
   </footer>
